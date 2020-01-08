@@ -1,0 +1,33 @@
+    .login {
+        margin-top: 30px;
+    }
+    
+    #user {
+        width: 300px;
+    }
+    
+    #pass {
+        width: 300px;
+    }
+    
+    h3 {
+        color: red;
+        text-align: left;
+    }
+    
+    #add {
+        float: right;
+        margin-top: -50px;
+    }
+    
+    button {
+        margin-left: 100px;
+    }
+    
+    #user1 {
+        width: 300px;
+    }
+    
+    #pass1 {
+        width: 300px;
+    }

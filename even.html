@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+
+    <style>
+        #num {
+            margin-top: 40px;
+            width: 400px;
+            margin-left: 50px;
+        }
+        
+        .btn-primary {
+            float: left;
+            margin-left: 130px;
+            width: 60px;
+        }
+        
+        .btn-success {
+            margin-left: 100px;
+        }
+        
+        #bor {
+            border: 1px solid black;
+            width: 500px;
+            height: 180px;
+        }
+        
+        #result {
+            color: RED;
+            font-size: medium;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <h3>Even/odd and Prime Number Check</h3>
+            <div id="bor">
+                <input type="text" class="num" id="num" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br>
+
+                <button id="btn" class="btn btn-primary">Click</button>
+                <button id="btn1" class="btn btn-success"><strong>Submit</strong></button><br><br>
+            </div><br>
+
+
+            <p id="result"></p>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src='assets/js/jquery.min.js'></script>
+<script src="assets/js/jquery.validate.js"></script>
+<script src='assets/js/bootstrap.min.js'></script>
+<script src='assets/js/even.js'></script>
+
+</html>

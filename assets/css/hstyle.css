@@ -1,0 +1,61 @@
+    .form-group {
+        text-align: justify;
+    }
+    
+    .form-inline {
+        border: 1px solid black;
+        margin: auto;
+        width: 800px;
+        height: 1000px;
+        padding: 30px;
+        background-color: lightgrey;
+    }
+    
+    .form-header-group {
+        padding: 15px;
+        background-position: 40px center;
+        text-align: center;
+    }
+    
+    .form-header {
+        color: red;
+    }
+    
+    #fname {
+        width: 250px;
+    }
+    
+    .btn-success {
+        float: left;
+        padding: 10px;
+    }
+    
+    .btn-primary {
+        float: right;
+        padding: 10px;
+    }
+    
+    #lname {
+        width: 250px;
+    }
+    
+    #email {
+        width: 500px;
+    }
+    
+    #room {
+        width: 500px;
+    }
+    
+    #guest {
+        width: 250px;
+    }
+    
+    #flight {
+        width: 500px;
+    }
+    
+    #special {
+        width: 500px;
+        height: 100px;
+    }

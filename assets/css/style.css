@@ -1,0 +1,72 @@
+#mssg {
+    height: 180px;
+    width: 822px;
+    border-radius: 5px;
+}
+
+.form-inline {
+    border: 1px solid black;
+    margin: auto;
+    width: 900px;
+    padding: 35px;
+}
+
+.btn-success {
+    float: left;
+    padding: 10px;
+}
+
+.btn-primary {
+    float: right;
+    padding: 10px;
+}
+
+.title {
+    padding: 80px 20px 80px 74px;
+    background-position: 40px center;
+    background-size: 120px;
+    background-color: lightgreen;
+}
+
+.form-header-group {
+    padding: 60px;
+    background-position: 40px center;
+    border-bottom: none;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.form-header {
+    color: white;
+}
+
+#area {
+    width: 300px;
+}
+
+.error {
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+    display: block;
+}
+
+#phone {
+    width: 500px;
+}
+
+#fname {
+    width: 406px;
+}
+
+#lname {
+    width: 406px;
+}
+
+#email {
+    width: 822px;
+}
+
+#number {
+    width: 250px;
+}

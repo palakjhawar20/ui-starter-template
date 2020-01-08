@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<style>
+    button {
+        color: black;
+        background-color: lightgreen;
+        border: 1px solid lightgreen;
+        padding: 5px;
+        margin: auto;
+    }
+    
+    #rec {
+        border: 1px solid black;
+        width: 400px;
+        height: 280px;
+        padding: 10px;
+    }
+    
+    #tr {
+        border: 1px solid black;
+        width: 400px;
+        height: 350px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row"></div>
+        <div id="rec">
+            <h3>Rectangle</h3>
+            Enter width value:
+            <input type="text" id="width" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Enter height value:
+            <input type="text" id="height" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Result:
+            <input type="text" id="result"><br><br><br>
+            <button type="button" id="mul"> Area</button>
+            <button type="button" id="cir"> Circumference</button>
+
+        </div><br><br>
+
+
+        <div id="rec">
+            <h3>Square</h3>
+            Side :
+            <input type="text" id="side" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Result:
+            <input type="text" id="out"><br><br>
+            <button id="sqr">area</button>
+            <button id="c"> Circumference</button>
+
+        </div><br><br>
+
+        <div id="rec">
+            <h3>Circle</h3>
+            Radius :
+            <input type="text" id="radius" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Result:
+            <input type="text" id="res"><br><br>
+            <button id="circle">area</button>
+            <button id="cc"> Circumference</button>
+
+        </div><br><br><br>
+
+        <div id="tr">
+            <h3>Triangle</h3>
+            height:
+            <input type="text" id="h" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Base:
+            <input type="text" id="b" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br> Side1:
+            <input type="text" id="s" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;"><br><br>Side2:
+            <input type="text" id="s2"><br><br> Result:
+            <input type="text" id="re"><br><br>
+            <button id="tri">area</button>
+            <button id="ct"> Circumference</button>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+<script src='assets/js/jquery.min.js'></script>
+<script src="assets/js/jquery.validate.js"></script>
+<script src='assets/js/bootstrap.min.js'></script>
+<script src='assets/js/area.js'></script>
+
+</html>

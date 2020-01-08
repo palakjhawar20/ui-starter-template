@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/user.css'>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <h3>Login</h3><br>
+            <h3 id="add">Add User</h3>
+
+            <div class="col-lg-6">
+
+                <div class="form-group">
+                    <label> Username</label><br>
+                    <input type="text" class="form-control" id="user" placeholder="Enter Username">
+                </div><br>
+
+                <div class="form-group">
+                    <label>Password</label><br>
+                    <input type="text" class="form-control" id="pass" placeholder="Enter Password">
+
+                </div>
+
+                <button class="btn btn-success">Submit</button>
+
+                <div id="msg">
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-6">
+                <div>
+
+
+                    <label>Username:</label>
+                    <input type="text" name="usern" id="user1" placeholder=" Enter Username" class="form-control"><br>
+                    <label>Password:</label>
+                    <input type="text" id="pass1" placeholder=" Enter Password" class="form-control"><br>
+                    <button class="btn btn-success" id="add1">Add</button>
+
+                </div><br>
+                <table class=" table table-bordered">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Username</th>
+                            <th>Password</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <button type="button" id="delete" class="btn btn-danger">Delete Row</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+<script src='assets/js/jquery.min.js'></script>
+<script src="assets/js/jquery.validate.js "></script>
+<script src='assets/js/bootstrap.min.js'></script>
+<script src='assets/js/user.js'></script>
+
+</html>

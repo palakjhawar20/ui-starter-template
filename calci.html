@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/mstyle.css'>
+
+
+
+
+</head>
+<style>
+    h2 {
+        text-align: center;
+        color: palevioletred;
+    }
+    
+    #result {
+        border: 2px solid lightgray;
+        height: 60px;
+        padding: 10px;
+        background-color: #EEEEEE;
+        width: 100%;
+    }
+    
+    table {
+        border: 5px solid lightgray;
+        margin: auto;
+        background-color: lightgray;
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+    .abc {
+        background-color: black;
+        color: white;
+        border: 1px solid lightgray;
+        width: 90px;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: large;
+        margin: 5px;
+    }
+    
+    .xyz {
+        background-color: grey;
+        border: 1px solid lightgray;
+        width: 90px;
+        padding: 15px;
+        color: white;
+        border-radius: 5px;
+        font-size: large;
+        margin: 5px;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <table>
+            <h2>Calculator</h2><br>
+
+            <tr>
+                <td colspan="4"><input type="text" id="result"></td>
+            </tr>
+            <br><br><br><br><br><br>
+            <tr>
+
+                <td><input type="button" value="1" id="1" class="abc"></td>
+                <td><input type="button" value="2" id="2" class="abc"> </td>
+                <td><input type="button" value="3" id="3" class="abc"></td>
+                <td><input type="button" value="0" id="0" class="abc"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="4" id="4" class="abc"></td>
+                <td><input type="button" value="5" id="5" class="abc"> </td>
+                <td><input type="button" value="6" id="6" class="abc"></td>
+                <td><input type='reset' value='cl' name='reset' id="clear" class='xyz'></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="7" id="7" class="abc"></td>
+                <td><input type="button" value="8" id="8" class="abc"> </td>
+                <td><input type="button" value="9" id="9" class="abc"></td>
+                <td><input type="button" value="=" id="equal" class="xyz"></td>
+            </tr>
+
+            <tr>
+                <td><input type="button" value="+" class="xyz" id="add"></td>
+                <td><input type="button" value="-" class="xyz" id="subtract"> </td>
+                <td><input type="button" value="x" class="xyz" id="multiply"></td>
+                <td><input type="button" value="/" class="xyz" id="divide"></td>
+            </tr>
+
+
+
+
+        </table>
+    </div>
+</body>
+<script src='assets/js/jquery.min.js'></script>
+<script src='assets/js/bootstrap.min.js'></script>
+<script src='assets/js/calci.js'></script>
+
+
+</html>

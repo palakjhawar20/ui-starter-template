@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/themify-icons.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/mstyle.css'>
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+
+                <form>
+                    <div class="form-header-group ">
+                        <h2 class="form-header">
+                            Medical History
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label>Full Name *</label>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="fname">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="lname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number *</label>
+                        <input type="number" class="form-control" id="area">
+                    </div>
+                    <div class="form-group">
+
+                        <input type="nuumber" class="form-control" id="phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Check the conditions that apply to you or to any members of your immediate relatives:  *</label><br>
+
+                        <input type="checkbox" name="disease" value="asthma" id="disease"> Asthma<br>
+                        <input type="checkbox" name="disease" value="cancer" id="disease"> Cancer<br>
+                        <input type="checkbox" name="disease" value="cardiac disease" id="disease"> Cardiac disease<br>
+                        <input type="checkbox" name="disease" value="diabetes" id="disease"> Diabetes<br>
+                        <input type="checkbox" name="disease" value="hypertension" id="disease"> Hypertension<br>
+                        <input type="checkbox" name="disease" value="psychiatric disease" id="disease"> Psychiatric disease<br>
+                        <input type="checkbox" name="disease" value="epilepsy" id="disease"> Epilepsy
+
+
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Check the symptoms that you're currently experiencing: *</label><br>
+                        <input type="checkbox" name="hdisease" value="chest pain" class="hdisease"> Chest pain<br>
+                        <input type="checkbox" name="hdisease" value="resiratory" class="hdisease"> Resiratory <br>
+                        <input type="checkbox" name="hdisease" value="cardiac disease" class="hdisease"> Cardiac disease<br>
+                        <input type="checkbox" name="hdisease" value="cardiovascular" class="hdisease"> Cardiovascular<br>
+                        <input type="checkbox" name="hdisease" value="hematological" class="hdisease"> Hematological<br>
+                        <input type="checkbox" name="hdisease" value="psychiatric" class="hdisease"> Psychiatric disease<br>
+                        <input type="checkbox" name="hdisease" value="lymphatic" class="hdisease"> Lymphatic<br>
+                        <input type="checkbox" name="hdisease" value="weight gain" class="hdisease"> Weight gain <br>
+                        <input type="checkbox" name="hdisease" value="weight loss" class="hdisease"> Weight loss <br>
+                        <input type="checkbox" name="hdisease" value="musculoskeletal" class="hdisease"> Musculoskeletal
+
+
+                    </div>
+
+                    <div class="form-group">
+                        <label> Are you currently taking any medication ? *</label><br>
+                        <input type="radio" name="med" value="yes" class="med"> Yes<br>
+                        <input type="radio" name="med" value="no" class="med"> No<br>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you have any medication allergies ? *</label><br>
+                        <input type="radio" name="alle" value="yes" class="alle"> Yes<br>
+                        <input type="radio" name="alle" value="no" class="alle"> No<br>
+                        <input type="radio" name="alle" value="not sure" class="alle"> Not sure
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>What is your Gender ? *</label><br>
+
+                        <input type="radio" name="gender" class="gender" value="Male"> Male<br>
+                        <input type="radio" name="gender" class="gender" value="Female"> Female
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>Do you use or do have any history of using tobacco? *</label><br>
+                        <select class="form-control" id="tob">
+                                    <option>No</option>
+                                    <option>Yes</option>
+                                   </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Do you use or do have any history of using illegal drugs? *</label><br>
+                        <select class="form-control" id="drug">
+                                        <option>No</option>
+                                        <option>Yes</option>
+                                       </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>How often do you consume alcohol ? *</label><br>
+
+                        <input type="radio" name="alcohol" value="daily" class="alcohol"> Daily
+                        <input type="radio" name="alcohol" value=weekly class="alcohol"> Weekly<br>
+                        <input type="radio" name="alcohol" value="occasionally" class="alcohol"> Occasionally
+                        <input type="radio" name="alcohol" value="never" class="alcohol"> Never
+
+                    </div>
+
+                    <button class="btn btn-success">Submit</button><input type='reset' value='Reset' name='reset' class='btn btn-primary'>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src='assets/js/jquery.min.js'></script>
+<script src='assets/js/bootstrap.min.js'></script>
+<script src='assets/js/medical.js'></script>
+
+</html>

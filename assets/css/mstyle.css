@@ -1,0 +1,24 @@
+.form-inline {
+    border: 1px solid black;
+    margin: auto;
+    width: 900px;
+    height: 1500px;
+    padding: 30px;
+}
+
+.btn-success {
+    float: left;
+    padding: 10px;
+}
+
+.btn-primary {
+    float: right;
+    padding: 10px;
+}
+
+.error {
+    font-size: 10px;
+    font-weight: 100;
+    color: red;
+    display: block;
+}
